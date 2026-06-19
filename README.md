@@ -19,6 +19,36 @@ User guides (FR + EN), with narrative explanations and examples:
 Auto-generated API reference (phpDocumentor):  
 👉 https://bcommebois.github.io/oihana-php-traits
 
+## 🧠 New to traits?
+
+A **trait** is a reusable block of methods and properties that you "mix into" a
+class with the `use` keyword. It is a way to **share behaviour across classes
+that don't share a common parent** — without copy-pasting and without
+inheritance.
+
+```php
+trait GreetTrait
+{
+    public function hello(): string
+    {
+        return "Hi, I'm {$this->name}";
+    }
+}
+
+class User
+{
+    use GreetTrait; // ← the class instantly gains the hello() method
+
+    public function __construct( public string $name ) {}
+}
+
+echo ( new User('Ada') )->hello(); // Hi, I'm Ada
+```
+
+This package is a curated set of small, focused, tested traits: drop one into
+your class with `use` and get container access, identifiers, lazy/lockable
+state, key-value access, and more — for free.
+
 ## 🚀 Features
 
 - 🧩 DI-container awareness — `ContainerTrait`.

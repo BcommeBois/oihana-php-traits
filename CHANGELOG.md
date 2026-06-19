@@ -25,3 +25,6 @@ reusable object traits.
   **100% line coverage** (125/125 lines, 30/30 methods, 12/12 classes),
   86 tests. The orphan `MockPDOClass` fixture (which pulled `oihana\models`)
   was intentionally left behind.
+- Bilingual user guide under `wiki/` (English + French): getting started
+  (introduction, installation, dependencies), container & config, identifiers,
+  state, strings & URI, and a testing guide.

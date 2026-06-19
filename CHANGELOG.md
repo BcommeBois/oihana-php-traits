@@ -21,3 +21,7 @@ reusable object traits.
   `KeyValueTrait`, `JsonOptionsTrait`, `LazyTrait`, `LockableTrait`,
   `SortDefaultTrait`, `ToStringTrait`, `UnsupportedTrait`, `UriTrait` and
   `strings\ExpressionTrait`.
+- Unit-test suite imported from `oihana/php-system` (PHPUnit, strict mode).
+  **100% line coverage** (125/125 lines, 30/30 methods, 12/12 classes),
+  86 tests. The orphan `MockPDOClass` fixture (which pulled `oihana\models`)
+  was intentionally left behind.

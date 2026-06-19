@@ -12,9 +12,9 @@ Reusable, composable object traits for PHP 8.4+.
 
 User guides (FR + EN), with narrative explanations and examples:
 
-| | |
-|---|---|
-| 🇬🇧 **[English documentation](wiki/en/README.md)** | 🇫🇷 **[Documentation française](wiki/fr/README.md)** |
+|                                                                                        |                                                                                       |
+|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| 🇬🇧 **[English documentation](wiki/en/README.md)**                                    | 🇫🇷 **[Documentation française](wiki/fr/README.md)**                                 |
 | Getting started, container, identifiers, key-value, lazy/lockable, URI, strings, tips. | Démarrage, conteneur, identifiants, clé-valeur, lazy/lockable, URI, chaînes, astuces. |
 
 Auto-generated API reference (phpDocumentor):  
@@ -83,6 +83,6 @@ composer doc
 
 ## 🔗 Related packages
 
-- `oihana/php-core` – core helpers and utilities used by this library: `https://github.com/BcommeBois/oihana-php-core`
-- `oihana/php-enums` – a collection of strongly-typed constant enumerations for PHP: `https://github.com/BcommeBois/oihana-php-enums`
-- `oihana/php-reflect` – reflection and hydration utilities: `https://github.com/BcommeBois/oihana-php-reflect`
+- [oihana/php-core](https://github.com/BcommeBois/oihana-php-core) – core helpers and utilities used by this library.
+- [oihana/php-enums](https://github.com/BcommeBois/oihana-php-enums) – a collection of strongly-typed constant enumerations for PHP.
+- [oihana/php-reflect](https://github.com/BcommeBois/oihana-php-reflect) – reflection and hydration utilities.

@@ -12,9 +12,8 @@ Reusable, composable object traits for PHP 8.4+.
 
 User guides (FR + EN), with narrative explanations and examples:
 
-|                                                                                        |                                                                                       |
+| 🇬🇧 **[English documentation](wiki/en/README.md)**                                                    | 🇫🇷 **[Documentation française](wiki/fr/README.md)**                                                 |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| 🇬🇧 **[English documentation](wiki/en/README.md)**                                    | 🇫🇷 **[Documentation française](wiki/fr/README.md)**                                 |
 | Getting started, container, identifiers, key-value, lazy/lockable, URI, strings, tips. | Démarrage, conteneur, identifiants, clé-valeur, lazy/lockable, URI, chaînes, astuces. |
 
 Auto-generated API reference (phpDocumentor):  

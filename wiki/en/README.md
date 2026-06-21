@@ -40,7 +40,7 @@ echo $p->id; // 42
 
 - [Container & config](container-config.md) — `ContainerTrait`, `ConfigTrait`, `KeyValueTrait`.
 - [Identifiers](identifiers.md) — `IDTrait`, `QueryIDTrait`.
-- [State](state.md) — `LazyTrait`, `LockableTrait`, `SortDefaultTrait`, `JsonOptionsTrait`.
+- [State](state.md) — `LazyTrait`, `LockableTrait`, `SortDefaultTrait`, `JsonOptionsTrait`, `DateTrait`.
 - [Strings & URI](strings-uri.md) — `ToStringTrait`, `UriTrait`, `strings\ExpressionTrait`, `UnsupportedTrait`.
 
 ### Cross-cutting

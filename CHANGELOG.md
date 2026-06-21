@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2026-06-21
+
+### Added
+- `DateTrait` — shared defaults (date format and timezone) for classes
+  manipulating dates, exposed as typed constants (`DEFAULT_DATE_FORMAT`,
+  `DEFAULT_TIMEZONE`, `NOW`) and public properties (`$dateFormat`, `$timezone`).
+  Relocated from `oihana/php-system` (`oihana\date\traits\DateTrait`) to the
+  `oihana\traits` namespace. Covered by `DateTraitTest` (100% coverage
+  maintained) and documented in the bilingual "State" wiki guide.
+
 ## [1.0.1] - 2026-06-20
 
 ### Fixed

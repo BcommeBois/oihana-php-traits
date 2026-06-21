@@ -57,6 +57,7 @@ state, key-value access, and more — for free.
 - 🗂️ Config and key-value access — `ConfigTrait`, `KeyValueTrait`, `JsonOptionsTrait`.
 - 🔗 URI building, stringable and expression helpers — `UriTrait`, `ToStringTrait`, `strings\ExpressionTrait`.
 - 🔢 Default sorting and unsupported-operation guards — `SortDefaultTrait`, `UnsupportedTrait`.
+- 🗓️ Date format and timezone defaults — `DateTrait`.
 - 🧪 Full unit-test coverage ensuring reliability and maintainability.
 
 💡 Designed to be lightweight, testable, and compatible with any PHP 8.4+ project.

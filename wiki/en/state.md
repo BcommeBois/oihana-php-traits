@@ -73,6 +73,32 @@ protected function initializeJsonOptions( array $init = [] ): static
 
 Init key: `JsonOptionsTrait::JSON_OPTIONS` (`'jsonOptions'`).
 
+## `DateTrait`
+
+Shared defaults for classes that manipulate dates: a date format and a timezone, exposed as plain public properties backed by typed constants (no `initialize…()` step).
+
+```php
+public const string DEFAULT_DATE_FORMAT = 'Y-m-d\TH:i:s'; // ISO-8601, no offset
+public const string DEFAULT_TIMEZONE    = 'Europe/Paris';
+public const string NOW                 = 'now';
+
+public string  $dateFormat = self::DEFAULT_DATE_FORMAT;
+public ?string $timezone   = self::DEFAULT_TIMEZONE; // null falls back to PHP's default
+```
+
+```php
+use oihana\traits\DateTrait;
+
+class Clock
+{
+    use DateTrait;
+}
+
+$clock = new Clock();
+$clock->dateFormat;            // 'Y-m-d\TH:i:s'
+$clock->timezone = 'UTC';     // override per instance
+```
+
 ## Next steps
 
 - [Container & config](container-config.md)
